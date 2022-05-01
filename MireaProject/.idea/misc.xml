@@ -10,9 +10,11 @@
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.1887031408308004" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_music_player.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.1" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.382051282051282" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.2078125" />
       </map>
     </option>
   </component>

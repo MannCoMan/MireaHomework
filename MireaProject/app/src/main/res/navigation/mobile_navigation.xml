@@ -32,4 +32,9 @@
         android:name="ru.mirea.kryazhin.mireaproject.ui.browser.BrowserFragment"
         android:label="fragment_browser"
         tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/musicPlayerFragment"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.musicplayer.MusicPlayerFragment"
+        android:label="fragment_music_player"
+        tools:layout="@layout/fragment_music_player" />
 </navigation>
