@@ -28,5 +28,17 @@
             android:id="@+id/musicPlayerFragment"
             android:icon="@android:drawable/stat_sys_headset"
             android:title="@string/music_player" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/audioRecordFragment"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/audioRecord" />
+        <item
+            android:id="@+id/sensorsFragment"
+            android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+            android:title="@string/sensors" />
     </group>
 </menu>

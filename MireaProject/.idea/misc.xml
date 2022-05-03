@@ -6,15 +6,20 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/fragment_audio_record.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_browser.xml" value="0.151268115942029" />
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.1887031408308004" />
+        <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_music_player.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/fragment_sensors.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="app/src/main/res/menu-v23/activity_main_drawer.xml" value="0.3880208333333333" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.382051282051282" />
         <entry key="app/src/main/res/menu/main.xml" value="0.2078125" />
+        <entry key="app/src/main/res/xml/paths.xml" value="0.19322916666666667" />
       </map>
     </option>
   </component>
