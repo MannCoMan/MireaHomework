@@ -40,5 +40,13 @@
             android:id="@+id/sensorsFragment"
             android:icon="@android:drawable/ic_menu_always_landscape_portrait"
             android:title="@string/sensors" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_stories"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/stories" />
     </group>
 </menu>

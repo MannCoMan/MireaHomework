@@ -52,4 +52,41 @@
         android:name="ru.mirea.kryazhin.mireaproject.ui.permissions.Sensors"
         android:label="fragment_sensors"
         tools:layout="@layout/fragment_sensors" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.settings.HomeSettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_home_settings">
+        <action
+            android:id="@+id/action_nav_settings_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.settings.SettingsFragment"
+        android:label="@string/settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_nav_settings"
+            app:destination="@id/nav_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.stories.StoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_stories" >
+        <action
+            android:id="@+id/action_storiesFragment_to_nav_stories"
+            app:destination="@id/nav_stories" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_stories"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.stories.HomeStoriesFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_home_stories" >
+    <action
+        android:id="@+id/action_nav_stories_to_storiesFragment"
+        app:destination="@id/storiesFragment" />
+    </fragment>
 </navigation>
