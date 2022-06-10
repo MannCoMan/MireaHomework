@@ -48,5 +48,18 @@
             android:id="@+id/nav_stories"
             android:icon="@android:drawable/ic_menu_today"
             android:title="@string/stories" />
+
+        <item
+            android:id="@+id/firebaseFragment"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/firebase" />
+        <item
+            android:id="@+id/notRetrofit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="NotRetrofit" />
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Maps" />
     </group>
 </menu>

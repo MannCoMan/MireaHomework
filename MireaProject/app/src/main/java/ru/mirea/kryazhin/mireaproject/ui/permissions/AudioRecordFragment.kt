@@ -157,15 +157,15 @@ class AudioRecordFragment : Fragment() {
         if (Environment.MEDIA_MOUNTED == state || Environment.MEDIA_MOUNTED_READ_ONLY == state) {
             Log.d(TAG, "sd-card success")
             // выбор источника звука
-            mediaRecorder!!.setAudioSource(MediaRecorder.AudioSource.MIC)
+            mediaRecorder?.setAudioSource(MediaRecorder.AudioSource.MIC)
             // выбор формата данных
-            mediaRecorder!!.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP)
+            mediaRecorder?.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP)
             // выбор кодека
-            mediaRecorder!!.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
+            mediaRecorder?.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
             val path = Environment.getExternalStorageDirectory().toString() + "/mirea.3gp"
-            mediaRecorder!!.setOutputFile(path)
-            mediaRecorder!!.prepare()
-            mediaRecorder!!.start()
+            mediaRecorder?.setOutputFile(path)
+            mediaRecorder?.prepare()
+            mediaRecorder?.start()
             Toast.makeText(activity, "Recording started!", Toast.LENGTH_SHORT).show()
         }
     }
@@ -173,9 +173,9 @@ class AudioRecordFragment : Fragment() {
     private fun stopRecording() {
         if (mediaRecorder != null) {
             Log.d(TAG, "stopRecording")
-            mediaRecorder!!.stop()
-            mediaRecorder!!.reset()
-            mediaRecorder!!.release()
+            mediaRecorder?.stop()
+            mediaRecorder?.reset()
+            mediaRecorder?.release()
             Toast.makeText(activity, "You are not recording right now!", Toast.LENGTH_SHORT).show()
         }
     }

@@ -89,4 +89,19 @@
         android:id="@+id/action_nav_stories_to_storiesFragment"
         app:destination="@id/storiesFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.firebase.FirebaseFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_firebase" />
+    <fragment
+        android:id="@+id/notRetrofit"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.notRetrofit.NotRetrofitFragment"
+        android:label="fragment_not_retrofit"
+        tools:layout="@layout/fragment_not_retrofit" />
+    <fragment
+        android:id="@+id/maps"
+        android:name="ru.mirea.kryazhin.mireaproject.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
